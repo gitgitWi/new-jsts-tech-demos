@@ -1,0 +1,24 @@
+{
+  "name": "new-jsts-tech-demos",
+  "author": "gitgitWi",
+  "private": true,
+  "license": "MIT",
+  "version": "1.0.0",
+  "scripts": {},
+  "keywords": [
+    "typescript",
+    "javascript"
+  ],
+  "dependencies": {
+    "eslint": "^8.28.0",
+    "prettier": "^2.8.0",
+    "typescript": "^4.9.3"
+  },
+  "prettier": {
+    "endOfLine": "lf",
+    "singleQuote": true,
+    "printWidth": 80,
+    "tabWidth": 2,
+    "useTabs": false
+  }
+}

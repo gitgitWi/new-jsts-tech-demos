@@ -1,0 +1,20 @@
+{
+  "name": "Existing Dockerfile",
+  "build": {
+    "context": "..",
+
+    "dockerfile": "../dev.Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "mhutchie.git-graph",
+        "eamodio.gitlens",
+        "esbenp.prettier-vscode",
+        "streetsidesoftware.code-spell-checker",
+        "kisstkondoros.vscode-codemetrics"
+      ]
+    }
+  }
+}
