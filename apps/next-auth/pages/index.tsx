@@ -38,9 +38,8 @@ export default function Home() {
           <p>email : {session.data?.user?.email}</p>
           <p>expires : {session.data?.expires}</p>
           <p>accessToken:</p>
-          {/* @ts-ignore */}
           <pre className=" w-5/6 overflow-auto">
-            {' '}
+            {/* @ts-ignore */}
             {session.data?.user?.access_token}
           </pre>
         </div>
