@@ -3,10 +3,15 @@
   "compilerOptions": {
     "lib": ["dom", "dom.iterable", "esnext"],
     "noEmit": true,
-    "incremental": true,
     "module": "esnext",
     "isolatedModules": true,
-    "jsx": "preserve"
+    "jsx": "preserve",
+    "incremental": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./*"],
+      "@features/*": ["./features/*"]
+    }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules"]

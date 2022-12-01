@@ -4,11 +4,10 @@
   "private": true,
   "license": "MIT",
   "version": "1.0.0",
-  "scripts": {},
-  "keywords": [
-    "typescript",
-    "javascript"
-  ],
+  "scripts": {
+    "dev": "cd apps/api-response-with-zod/ && pnpm run dev"
+  },
+  "keywords": ["typescript", "javascript"],
   "dependencies": {
     "eslint": "^8.28.0",
     "prettier": "^2.8.0",
