@@ -1,5 +1,10 @@
 import { Counter } from '@/features/counter';
 
+export const metadata = {
+  title: 'Next.js App - Zustand',
+  description: 'Next.js App Dir with Zustand',
+};
+
 export default function Home() {
   return (
     <main
