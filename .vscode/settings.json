@@ -1,5 +1,10 @@
 {
   "editor.formatOnSave": true,
   "files.autoSave": "onFocusChange",
-  "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "npm.packageManager": "pnpm",
+  "eslint.packageManager": "pnpm",
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
